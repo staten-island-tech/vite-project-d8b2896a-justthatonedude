@@ -3,6 +3,7 @@
   font-family: "Istok Web", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  font-size: 16px;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
@@ -15,28 +16,20 @@
   -webkit-text-size-adjust: 100%;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
 body {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: #212121;
+  background: #2c1564;
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
+
 .app {
   display: flex;
   flex-direction: row;
@@ -46,10 +39,10 @@ h1 {
 }
 .card {
   position: relative;
-  width: 320px;
-  height: 480px;
-  background: #191919;
-  border-radius: 20px;
+  width: 20rem;
+  height: 40rem;
+  background: #471268;
+  border-radius: 1.25rem;
   overflow: hidden;
 }
 
@@ -59,7 +52,7 @@ h1 {
   top: -50%;
   width: 100%;
   height: 100%;
-  background: #ffce00;
+  background: #9522e1;
   transform: skewY(345deg);
   transition: 0.5s;
 }
@@ -76,7 +69,7 @@ h1 {
   left: 0;
   font-weight: 600;
   font-size: 6em;
-  color: rgba(0, 0, 0, 0.1);
+  color:#28003e;
 }
 
 .card .imgBox {
@@ -85,7 +78,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 20px;
+  padding-top: 1.25rem;
   z-index: 1;
 }
 /*
@@ -102,7 +95,7 @@ h1 {
 */
 .card .contentBox {
   position: relative;
-  padding: 20px;
+  padding: 1.25rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -111,41 +104,48 @@ h1 {
 }
 
 .card .contentBox h3 {
-  font-size: 18px;
+  font-size: 1.125rem;
   color: white;
   font-weight: 500;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 0.1rem;
 }
 
 .card .contentBox .price {
-  font-size: 24px;
+  font-size: 1.5rem;
   color: white;
   font-weight: 700;
-  letter-spacing: 1px;
+  letter-spacing: 0.1rem;
 }
 
-.card .contentBox .buy {
+.card .contentBox .specifications {
   position: relative;
-  top: 100px;
+  top: 6rem ;
   opacity: 0;
-  padding: 10px 30px;
-  margin-top: 15px;
-  color: #000000;
+  padding: 0.5rem 2rem;
+  margin-top: 1rem;
+  color: #28003e;
   text-decoration: none;
   background: #ffce00;
-  border-radius: 30px;
+  border-radius: 2rem;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 0.1rem;
   transition: 0.5s;
 }
 
-.card:hover .contentBox .buy {
+.card:hover .contentBox .specifications {
   top: 0;
   opacity: 1;
 }
 
-.mouse {
-  height: 300px;
+.product {
+  height: 18.75rem;
   width: auto;
+}
+.specs {
+  text-align: center;
+  text-wrap: pretty;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
