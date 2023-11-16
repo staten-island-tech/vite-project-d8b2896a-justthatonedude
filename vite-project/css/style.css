@@ -24,7 +24,10 @@ body {
   min-height: 100vh;
   background: #2c1564;
 }
-
+.stealth-mode {
+  background-color: #1c3139;
+  color: #efedf2;
+}
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
@@ -32,15 +35,15 @@ h1 {
 
 .app {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
+  flex-wrap: wrap;
+  margin: 1rem auto;
+  justify-content: space-around;
+  z-index: 1;
 }
 .card {
   position: relative;
   width: 20rem;
-  height: 40rem;
+  height: 50%;
   background: #471268;
   border-radius: 1.25rem;
   overflow: hidden;
@@ -148,4 +151,17 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media screen and (max-width:900px){
+  .card{
+    width: 40%;
+  }
+}
+@media screen and (max-width:500px){
+  .card{
+    width: 80%;
+  }
+  .contentBox{
+    font-size: 1.5rem;
+  }
 }

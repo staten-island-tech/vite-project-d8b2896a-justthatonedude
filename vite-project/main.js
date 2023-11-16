@@ -15,6 +15,7 @@ document.querySelector('#app').innerHTML = (`
     <h3>${names[0]}</h3>
     <h2 class="price">${salePrice[0]}</h2>
     <a href="#" id=Lunar_I id class="specifications">Specifications</a>
+
   </div>
 
 </div>
@@ -27,7 +28,8 @@ document.querySelector('#app').innerHTML = (`
   <div class="contentBox">
     <h3>${names[1]}</h3>
     <h2 class="price">${salePrice[1]}</h2>
-    <a href="#" id=${names[1]} class="specifications">Specifications</a>
+    <a href="#" id=Lunar_II class="specifications">Specifications</a>
+
   </div>
 
 </div>
@@ -41,7 +43,8 @@ document.querySelector('#app').innerHTML = (`
   <div class="contentBox">
     <h3>${names[2]}</h3>
     <h2 class="price">${salePrice[2]}</h2>
-    <a href="#" id=${names[2]} class="specifications">Specifications</a>
+    <a href="#" id=Lunar_V class="specifications">Specifications</a>
+
   </div>
 
 </div>
@@ -54,10 +57,12 @@ document.querySelector('#app').innerHTML = (`
   <div class="contentBox">
     <h3>${names[3]}</h3>
     <h2 class="price">${salePrice[3]}</h2>
-    <a href="#" id=${names[3]} class="specifications">Specifications</a>
+    <a href="#" id=Lunar_X class="specifications">Specifications</a>
+
   </div>
 
 </div>
+<button id="theme">Theme Switch<button>
 </div>
 
 `);
