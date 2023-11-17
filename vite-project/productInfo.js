@@ -43,7 +43,7 @@ const productData = [
                 RAM : "32 GB DDR5-5600",
                 GPU : "RTX 4090",
                 STORAGE : "2 TB SSD",
-                PSU : "80 Plus Platnium 1000 Watt",
+                PSU : "80 Plus Platinum 1000 Watt",
             },
             salePrice : "$3299",
       }];

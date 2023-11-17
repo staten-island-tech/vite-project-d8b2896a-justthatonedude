@@ -1,9 +1,9 @@
 import './css/style.css'
-import {names, salePrice, specs} from './productInfo.js'
+import {names, salePrice} from './productInfo.js'
 
 
 document.querySelector('#app').innerHTML = (`
-<h1>TOTALLY NOT A STARFORGE RIPOFF FOR FUNNY</h1>
+<h1>Lunar Systems</h1>
 <div class = "app">
 <div class="card">
 
@@ -62,7 +62,7 @@ document.querySelector('#app').innerHTML = (`
   </div>
 
 </div>
-<button id="theme">Theme Switch<button>
+<button id="theme">Theme Switch</button>
 </div>
 
 `);

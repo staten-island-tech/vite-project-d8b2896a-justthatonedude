@@ -11,11 +11,15 @@ specs.forEach((el)=>ram.push(el.RAM));
 specs.forEach((el)=>storage.push(el.STORAGE));
 specs.forEach((el)=>psu.push(el.PSU));
 const DOM = {
+    MainPage: document.querySelector("body"),
     Theme: document.getElementById("theme"),
     LunarI: document.getElementById("Lunar_I"),
     LunarII: document.getElementById("Lunar_II"),
     LunarV: document.getElementById("Lunar_V"),
     LunarX: document.getElementById("Lunar_X"),
+    Card: document.querySelectorAll(".card"),
+    ContentBox: document.querySelectorAll(".contentBox"),
+    imgBox: document.querySelectorAll(".imgBox"),
 };
 DOM.LunarI.addEventListener("click", function(event){ 
   function divCreator(){
@@ -55,8 +59,10 @@ DOM.LunarX.addEventListener("click", function(event){
         });
 DOM.Theme.addEventListener("click", function(event){
     function themeChanger(){
-        const body = document.body
-        body.classList.toggle("stealth-mode")
+        DOM.MainPage.classList.toggle("stealth-mode")
+        DOM.ContentBox.forEach((el)=>el.classList.toggle("card-stealth-mode"))
+        DOM.Card.forEach((el)=>el.classList.toggle("card-stealth-mode"))
+        DOM.imgBox.forEach((el)=>el.classList.toggle("card-stealth-mode")) 
     }
     themeChanger();
 });

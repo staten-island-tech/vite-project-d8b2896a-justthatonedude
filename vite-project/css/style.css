@@ -25,11 +25,16 @@ body {
   background: #2c1564;
 }
 .stealth-mode {
-  background-color: #1c3139;
+
+  background: #272d36;
+}
+.card-stealth-mode {
   color: #efedf2;
+  background: #2c012c;
+  z-index: 0;
 }
 h1 {
-  font-size: 3.2em;
+  font-size: 3.2rem;
   line-height: 1.1;
 }
 
@@ -49,8 +54,8 @@ h1 {
   overflow: hidden;
 }
 
-.card::before {
-  content: "";
+/* .card::before {
+  content: "LUNAR";
   position: absolute;
   top: -50%;
   width: 100%;
@@ -73,7 +78,7 @@ h1 {
   font-weight: 600;
   font-size: 6em;
   color:#28003e;
-}
+} */
 
 .card .imgBox {
   position: relative;
@@ -118,7 +123,7 @@ h1 {
   font-size: 1.5rem;
   color: white;
   font-weight: 700;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.2rem;
 }
 
 .card .contentBox .specifications {
