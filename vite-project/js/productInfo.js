@@ -45,7 +45,7 @@ const productData = [
                 STORAGE : "2 TB SSD",
                 PSU : "80 Plus Platinum 1000 Watt",
             },
-            salePrice : "$3299",
+            salePrice : "$3999",
       }];
 export const names = [];
 export const specs = [];
