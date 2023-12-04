@@ -25,7 +25,7 @@ DOM.LunarI.addEventListener("click", function(event){
           `<div class="card">
 
           <div class="imgBox">
-            <img src="https://starforgesystems.com/cdn/shop/files/Core_8b2a8099-2dac-4f34-8893-2157c026dc9a.png?v=1698933733&width=832" alt="LUNAR I" class="product">
+            <img src="https://starforgesystems.com/cdn/shop/files/Horizon2Adjusted-product-img-cuouts.png?v=1700242711&width=832" alt="LUNAR I" class="product">
           </div>
         
           <div class="contentBox">
