@@ -18,12 +18,6 @@ const DOM = {
     LunarV: document.getElementById("Lunar_V"),
     LunarX: document.getElementById("Lunar_X"),
 };
-let button = document.querySelectorAll("button");
-button.forEach((btn)=>btn.addEventListener("click", function(){
-  let product = btn.textContent
-  let newArr = 
-  divCreator();
-}));
 DOM.LunarI.addEventListener("click", function(event){ 
   function divCreator(){
       DOM.LunarI.insertAdjacentHTML(
